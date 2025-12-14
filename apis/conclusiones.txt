@@ -1,0 +1,13 @@
+CONCLUSIONES DEL EJERCICIO DE APIS - DEMOBLAZE
+
+1. Se implementó la automatización de pruebas para los servicios de Signup y Login de la API de Demoblaze utilizando Karate DSL.
+2. Las pruebas cubren los siguientes casos:
+   - Crear un nuevo usuario correctamente.
+   - Intentar crear un usuario ya existente.
+   - Login con usuario y contraseña correctos.
+   - Login con usuario y contraseña incorrectos.
+3. Se parametrizaron las credenciales y la URL base en el archivo 'karate-config.js' para facilitar la reutilización y mantenimiento de los tests.
+4. Los escenarios validan tanto los códigos de estado HTTP como los mensajes de respuesta esperados.
+5. Se generó la estructura de reportes automáticos en 'target/karate-reports', los cuales permiten revisar el resultado de cada ejecución de manera clara.
+6. Se recomienda revisar que las respuestas de la API coincidan con las expectativas actuales, ya que algunos mensajes de error pueden cambiar según la implementación del backend.
+7. La automatización facilita la repetición de pruebas y asegura la integridad del flujo de registro y autenticación de usuarios.
