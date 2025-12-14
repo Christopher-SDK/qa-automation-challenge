@@ -1,0 +1,11 @@
+CONCLUSIONES E2E
+
+Se implementó una automatización E2E siguiendo buenas prácticas:
+- Separación por capas (features, steps, pages)
+- Uso de Page Object Model
+- Escenarios legibles con Gherkin
+- Validaciones robustas y estables
+- Reporte visual para análisis de resultados
+
+La solución es escalable, mantenible y alineada a entornos ágiles,
+permitiendo fácil incorporación de nuevos escenarios y flujos.

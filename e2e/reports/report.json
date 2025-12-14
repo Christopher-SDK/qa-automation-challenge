@@ -1,0 +1,89 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "purchase-flow-in-saucedemo;successful-purchase-of-two-products",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful purchase of two products",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is logged in with valid credentials",
+            "match": {
+              "location": "steps/purchase.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2275897415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user adds two products to the cart",
+            "match": {
+              "location": "steps/purchase.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39272541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user views the cart",
+            "match": {
+              "location": "steps/purchase.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53906915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "completes the checkout form",
+            "match": {
+              "location": "steps/purchase.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154436249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the purchase is completed successfully",
+            "match": {
+              "location": "steps/purchase.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111473875
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "purchase-flow-in-saucedemo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Purchase flow in SauceDemo",
+    "tags": [],
+    "uri": "features/purchase.feature"
+  }
+]
